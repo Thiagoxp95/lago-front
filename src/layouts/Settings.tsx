@@ -128,7 +128,6 @@ const BurgerButton = styled(Button)`
     z-index: ${theme.zIndex.drawer};
     left: ${theme.spacing(4)};
     top: ${theme.spacing(4)};
-
     ${theme.breakpoints.up('md')} {
       display: none;
     }
